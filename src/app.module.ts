@@ -24,6 +24,7 @@ import { SignatureModule } from './signature/signature.module';
 import { PharmacyDispatchModule } from './pharmacies/dispatch/pharmacy-dispatch.module';
 import { MessagingModule } from './messaging/messaging.module';
 import { NotificationsModule } from './notifications/notifications.module';
+import { AuditModule } from './audit/audit.module';
 
 @Module({
   imports: [
@@ -96,6 +97,7 @@ import { NotificationsModule } from './notifications/notifications.module';
     PharmacyDispatchModule,
     MessagingModule,
     NotificationsModule,
+    AuditModule,
   ],
   providers: [
     HealthResolver,
